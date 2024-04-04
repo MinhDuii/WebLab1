@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Trung Nguyen Store</h1>
+        <nav class="navi">
+            <a href="homepage.html">Home</a>
+            <a href="store.html">Store</a>
+            <a href="cart.html">Cart</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <div class="register">
+            <h2>Register</h2>
+            <form action="#">
+                <div class="name">
+                    <input type="text" required>
+                    <label>Name</label>
+                </div>
+                <div class="lastname">
+                    <input type="text" required>
+                    <label>Last Name</label>
+                </div>
+                <div class="input-box">
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="address">
+                    <input type="text" required>
+                    <label>Address</label>
+                </div>
+                <div class="input-radio">
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female" required>
+                    <label for="female">Female</label>
+                    <input type="radio" id="none" name="gender" value="None" required>
+                    <label for="pnts">None</label>
+                </div>
+                <div class="register">
+                    <p>You have an account? <a href="login.html">Login</a></p>
+                </div>
+                <button type="submit" class="btn">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
